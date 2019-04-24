@@ -1,5 +1,6 @@
 ﻿# Build your first Chatbot for getting IPL updates using the Rasa Stack 
 
+This is the **Complete Version** of the IPL Chatbot and can be directly used with slack by filling **slack_credentials.yml** and CricAPI's key in the **actions.py** files.
 
 ## Setup and installation
 
@@ -14,20 +15,9 @@ You also need to install a spaCy English language model. You can install it by r
 python -m spacy download en
 ```
 
-
-## What’s in this starter-pack?
-
-This starter-pack contains some training data and the main files which you can use as the basis of your first custom assistant. It also has the usual file structure of the assistant built with Rasa Stack. This starter-pack consists of the following files:
-
 ### Files for Rasa NLU model
 
-- **data/nlu_data.md** file contains training examples of six intents: 
-	- greet
-	- goodbye
-	- thanks
-	- deny
-	- joke
-	- name (examples of this intent contain an entity called 'name')
+- **data/nlu_data.md** file contents training data for the NLU model.
 	
 - **nlu_config.yml** file contains the configuration of the Rasa NLU pipeline:  
 ```yaml
@@ -40,7 +30,7 @@ pipeline: spacy_sklearn
 
 - **data/stories.md** file contains some training stories which represent the conversations between a user and the assistant. 
 - **domain.yml** file describes the domain of the assistant which includes intents, entities, slots, templates and actions the assistant should be aware of.  
-- **actions.py** file contains the code of a custom action which retrieves a Chuck Norris joke by making an external API call.
+- **actions.py** file contains the code of a custom action which retrieves results of the latest IPL match by making an external API call.
 - **endpoints.yml** file contains the webhook configuration for custom action.  
 - **policies.yml** file contains the configuration of the training policies for Rasa Core model.
 
