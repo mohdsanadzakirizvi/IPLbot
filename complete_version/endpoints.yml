@@ -1,2 +1,2 @@
 action_endpoint:
-  url: 
+  url: "http://localhost:5055"
