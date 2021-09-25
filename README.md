@@ -1,7 +1,6 @@
 # IPLbot
 
-A basic chatbot to fetch IPL cricket updates in Slack, made using RASA. This code is part of the technical tutorial blog - [Learn how to Build and Deploy a Chatbot in Minutes using Rasa (IPL Case Study!)
-](https://www.analyticsvidhya.com/blog/2019/04/learn-build-chatbot-rasa-nlp-ipl/)
+A basic chatbot to fetch IPL cricket updates in Slack, made using RASA. This code is part of the technical tutorial blog - [Learn how to Build and Deploy a Chatbot in Minutes using Rasa](https://www.analyticsvidhya.com/blog/2019/04/learn-build-chatbot-rasa-nlp-ipl/).
 
 ## Project Structure
 
